@@ -110,5 +110,5 @@ print("-" * SEP_NUM)
 print(f"| {'female':^{ALIGHT_NUM}} | {flat_list.count('female'):^{ALIGHT_NUM}} |")
 print(f"| {'male':^{ALIGHT_NUM}} | {flat_list.count('male'):^{ALIGHT_NUM}} |")
 print("-" * SEP_NUM)
-# ____________end-line_3______________________________
+# ____________end-line_4______________________________
 
