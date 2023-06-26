@@ -6,7 +6,6 @@ write code that will help us to get cars that satisfy search_criteria.
 Cars should be sorted by price ascending. We should print up to five first found elements.
 """
 
-
 car_data = {
     'Mercedes': ('silver', 2019, 1.8, 'sedan', 50000),
     'Audi': ('black', 2020, 2.0, 'sedan', 55000),
@@ -64,7 +63,10 @@ for index, value in enum_cars:
         print(value)
     else:
         break
-# ______________control_1_branch_13___________________
-
-
+# _____printing using the slice___
+print('_' * 20)
+first_five = sorted_selected_cars[:5]
+for ind in first_five:
+    print(ind)
+# __________________________________
 
